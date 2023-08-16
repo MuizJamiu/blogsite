@@ -1,0 +1,21 @@
+:root {
+    --primary-color:#252B48;
+    --secondary-color:#445069;
+    --tetiary-color:#5B9A8B;
+}
+nav {
+    background-color: var(--secondary-color)!important;
+}
+.navbar-brand {
+    color: white;
+}
+.btn {
+    color: white;
+}
+.nav-link {
+    color: white!important;
+}
+.showcase {
+    background-color: #252B48!important;
+    height: 800px;
+}
