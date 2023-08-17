@@ -1,7 +1,7 @@
 :root {
     --primary-color:#252B48;
     --secondary-color:#445069;
-    --tetiary-color:#5B9A8B;
+    --tetiary-color:green;
 }
 nav {
     background-color: var(--secondary-color)!important;
@@ -17,5 +17,10 @@ nav {
 }
 .showcase {
     background-color: #252B48!important;
-    height: 800px;
+    justify-content: space-around;
+    display: flex;
+    min-height: 750px;
+}
+.card {
+    max-height: 14rem;
 }
