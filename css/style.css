@@ -5,6 +5,7 @@
 }
 nav {
     background-color: var(--secondary-color)!important;
+    margin-bottom: 0%;
 }
 .navbar-brand {
     color: white;
@@ -15,12 +16,31 @@ nav {
 .nav-link {
     color: white!important;
 }
+.nav-link:hover {
+    color: black!important;
+}
+.header {
+    background-color: #252B48;
+}
+h1 {
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
 .showcase {
     background-color: #252B48!important;
     justify-content: space-around;
     display: flex;
-    min-height: 750px;
+ 
 }
 .card {
-    max-height: 16rem;
+    background-color: var(--secondary-color);
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+.card:hover {
+    background-color:white ;
+    cursor: pointer;
 }
